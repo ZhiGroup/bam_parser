@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "argv">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:bam_parser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "k">
+            </PersistentString>
+            <PersistentString
+               value = "argv[3]">
+            </PersistentString>
+            <PersistentString
+               value = "single_reads[0]">
+            </PersistentString>
+            <PersistentString
+               value = "argc">
+            </PersistentString>
+            <PersistentString
+               value = "argv[2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fetch_func(bam1_t const*, void*):HL.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "HL::subset_by_reads(int*, int):HL.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HL::parse_bam_vcf(char const*, char const*):HL.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "tmp">
+            </PersistentString>
+            <PersistentString
+               value = "alt_allele">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "_Z14vcf_parse_lineP12bam_header_tPcPiS2_S1_S1_ [inlined]:HL.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pch">
+            </PersistentString>
+            <PersistentString
+               value = "p">
+            </PersistentString>
+            <PersistentString
+               value = "*p">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HL::subset_by_reads(MV_Vector_int):HL.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "read_ind[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HL::parse_bam(char const*, char const*):HL.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "line[0]">
+            </PersistentString>
+            <PersistentString
+               value = "line.c_str[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bam_iter_read:bam_index.c">
+      </ContextState>
+      <ContextState
+         contextName = "HL::write_reads:HL.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "read_name_[1].c_str()">
+            </PersistentString>
+            <PersistentString
+               value = "read_name_.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

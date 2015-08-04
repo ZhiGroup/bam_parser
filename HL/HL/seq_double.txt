@@ -1,0 +1,24 @@
+#read index (1-based)
+#num_of_reads: 4
+1	EAS54_65:7:152:368:113
+2	EAS51_64:8:5:734:57
+3	B7_591:1:289:587:906
+4	EAS56_59:8:38:671:758
+
+#site index (1-based)
+#num_of_sites: 4
+1	1	C	T
+2	10	C	T
+3	11	C	T
+4	111	A	G
+
+#the matrix (sorted by read01)
+#rid	sid	nuc	qual
+1	2	0	27
+1	3	1	27
+2	2	0	27
+2	3	1	27
+3	2	-1	12
+3	3	-1	12
+4	2	-1	27
+4	3	-1	27

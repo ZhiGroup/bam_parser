@@ -1,0 +1,129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3843606015C1AD7800AB2142 /* HL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HL.h; sourceTree = "<group>"; };
+		3843606115C1AE3600AB2142 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.csh; };
+		3843606515CA35C700AB2142 /* HL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HL.cpp; sourceTree = "<group>"; };
+		3843606615CB8B9E00AB2142 /* bam_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bam_parser.cpp; sourceTree = "<group>"; };
+		38AAC0E81637A1EE00CC1EB0 /* sample_cmd.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = sample_cmd.sh; sourceTree = "<group>"; };
+		38AAC0E916402A2800CC1EB0 /* bam_reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bam_reader.cpp; sourceTree = "<group>"; };
+		38AAC0EA16402A2800CC1EB0 /* bam_reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bam_reader.h; sourceTree = "<group>"; };
+		38F42D3415F2EEF000507729 /* bam_tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bam_tester.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3843605315C1AD4C00AB2142 = {
+			isa = PBXGroup;
+			children = (
+				38AAC0E916402A2800CC1EB0 /* bam_reader.cpp */,
+				38AAC0EA16402A2800CC1EB0 /* bam_reader.h */,
+				3843606A15D0CE3500AB2142 /* New Group */,
+				3843606015C1AD7800AB2142 /* HL.h */,
+				3843606515CA35C700AB2142 /* HL.cpp */,
+				3843606615CB8B9E00AB2142 /* bam_parser.cpp */,
+				38F42D3415F2EEF000507729 /* bam_tester.cpp */,
+				3843606115C1AE3600AB2142 /* Makefile */,
+				38AAC0E81637A1EE00CC1EB0 /* sample_cmd.sh */,
+			);
+			sourceTree = "<group>";
+		};
+		3843606A15D0CE3500AB2142 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		3843605515C1AD4C00AB2142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3843605815C1AD4C00AB2142 /* Build configuration list for PBXProject "HL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3843605315C1AD4C00AB2142;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3843605B15C1AD4C00AB2142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3843605C15C1AD4C00AB2142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3843605815C1AD4C00AB2142 /* Build configuration list for PBXProject "HL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3843605B15C1AD4C00AB2142 /* Debug */,
+				3843605C15C1AD4C00AB2142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3843605515C1AD4C00AB2142 /* Project object */;
+}
